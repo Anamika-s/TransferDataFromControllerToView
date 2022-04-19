@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h1> List of Students </h1>
+@{ foreach (var student in ViewBag.list)
+    { @student.Id
+    @student.Name
+
+    @student.Batch
+    @student.Marks <br /> }
+}
+
