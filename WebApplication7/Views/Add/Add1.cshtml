@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Add1";
+}
+
+<h2>Add1</h2>
+
+@{if (ViewBag.res != null)
+    {
+    <b> Result is @ViewBag.res</b>
+    }
+    else
+    {
+<form action="Add2" method="post">
+    <div>
+        <label for="txtNo1"> Enter No 1</label>
+        <input type="number" name="txtNo1" id="txtNo1" />
+    </div>
+
+
+    <div>
+        <label for="txtNo2"> Enter No 2</label>
+        <input type="number" name="txtNo2" id="txtNo2" />
+    </div>
+
+    <input type="submit" value="Add"/>
+</form>
+
+        }
+    }

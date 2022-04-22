@@ -1,0 +1,20 @@
+﻿@model WebApplication7.Models.Student
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@{ if (ViewBag.msg != null)
+    {
+     @ViewBag.msg
+        }
+        else
+        {
+
+<b>
+    ID is @Model.Id  <br />
+    Name is @Model.Name
+</b>}
+    }
+

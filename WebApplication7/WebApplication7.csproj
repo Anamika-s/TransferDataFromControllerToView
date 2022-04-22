@@ -120,12 +120,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AddController.cs" />
     <Compile Include="Controllers\FirstController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Numbers.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -171,6 +174,15 @@
     <Content Include="Views\Student\Index.cshtml" />
     <Content Include="Views\Student\Details1.cshtml" />
     <Content Include="Views\Student\Index1.cshtml" />
+    <Content Include="Views\Add\Add1.cshtml" />
+    <Content Include="Views\Add\Add3.cshtml" />
+    <Content Include="Views\Add\Add4.cshtml" />
+    <Content Include="Views\Add\Add5.cshtml" />
+    <Content Include="Views\Students\Details.cshtml" />
+    <Content Include="Views\Students\Create.cshtml" />
+    <Content Include="Views\Students\Edit.cshtml" />
+    <Content Include="Views\Students\Delete.cshtml" />
+    <Content Include="Views\Students\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
